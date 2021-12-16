@@ -1,0 +1,2 @@
+# ionic-sqlite-cordova
+
