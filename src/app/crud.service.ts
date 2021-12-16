@@ -97,7 +97,7 @@ export class CrudService {
       this.dbInstance.executeSql(`
       DELETE FROM ${this.db_table} WHERE user_id = ${user}`, [])
         .then(() => {
-          alert("User deleted!");
+          alert("usuario eliminado...");
           this.getAllUsers();
         })
         .catch(e => {
